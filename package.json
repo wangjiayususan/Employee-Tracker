@@ -1,0 +1,33 @@
+{
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "express": "^4.17.3",
+    "inquirer": "^8.2.0",
+    "mysql2": "^2.3.3"
+  },
+  "name": "employee-tracker",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "tests",
+    "start": "node server.js"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangjiayususan/Employee-Tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wangjiayususan/Employee-Tracker/issues"
+  },
+  "homepage": "https://github.com/wangjiayususan/Employee-Tracker#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
